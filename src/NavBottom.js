@@ -18,8 +18,8 @@ export default function NavBottom(){
             <Tab.Navigator
             initialRouteName={homeName}
             screenOptions = {({ route }) =>({
-                tabBarActiveTintColor:COLOR.dark_white_color,
-                tabBarInactiveTintColor:"white",
+                tabBarActiveTintColor:"white",
+                tabBarInactiveTintColor:COLOR.dark_white_color,
                 tabBarStyle:[{
                     backgroundColor:COLOR.basic_select_color,
                     borderTopEndRadius:15,
